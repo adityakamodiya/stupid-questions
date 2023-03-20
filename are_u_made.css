@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper
+{ height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    text-align: center;
+}
+.box{
+    /* text-align: center; */
+    height: 70%;
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+ 
+.button1,.button2{ 
+
+    padding: 10px 30px;
+    margin: 0 5px;
+    
+}
+.button2{
+    padding: 10px 30px;
+    position: absolute;
+}
